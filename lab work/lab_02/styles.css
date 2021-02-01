@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #FF2D00;
+  width: 85vw;
+}
+
+nav a {
+  background-color: #52F1E5;
+  color: #white;
+  padding: 0.25em 7.56em;
+  margin: 0.25em;
+  text-decoration: none;
+
+  transition: background-color 1s;
+}
+
+nav a:hover {
+  background-color: #0064FF;
+}
+
+header, section {
+  background-color: #D89FD8;
+  overflow: auto;
+  width: 85vw;
+}
